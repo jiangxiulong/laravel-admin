@@ -1,18 +1,30 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
 
-# Other files and folders
+
+.DS_Store
+.idea
 .settings/
+*.swp
+*.iml
+*.ipr
+*.iws
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+storage/debugbar
+config/debugbar.php
+config/ide-helper.php
